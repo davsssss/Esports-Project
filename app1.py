@@ -11,9 +11,13 @@ def home():
 def introduction():
     return render_template("introduction.html")
 
-@app.route("/Models")
-def Models():
+@app.route("/LOL")
+def LOL():
     return render_template("Models.html")
+
+@app.route("/Valorant")
+def Valorant():
+    return render_template("ValPredictions.html")
 
 @app.route("/Queries")
 def Queries():
